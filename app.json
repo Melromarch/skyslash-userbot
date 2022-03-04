@@ -1,7 +1,7 @@
 {
-  "name": "⚡Skyzu-Userbot⚡",
-  "description": "🚫Skyzu-Userbot🚫 USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/fd08937c4ae6cb1303731.jpg",
+  "name": "⚡Skyslash-Userbot⚡",
+  "description": "★Skyslash-Userbot★ USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/3c31f9a01e88302003c80.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
 ],
-  "repository": "https://github.com/Skyzu/skyzu-userbot",
-  "telegram": "https://t.me/skyzu",
-  "success_url": "https://t.me/skyzusupport",
+  "repository": "https://github.com/Melromarch/skyslash-userbot",
+  "telegram": "https://t.me/sansanzt",
+  "success_url": "https://t.me/SkyslashSupportt",
   "stack": "container",
   "env": {
     "API_KEY": {
