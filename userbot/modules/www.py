@@ -17,7 +17,7 @@ from userbot import ALIVE_NAME, CMD_HELP, DEVS, StartTime
 from userbot.events import register
 
 absen = [
-    "**Eh ada skyzu**",
+    "**Eh ada skyslash**",
     "**Hadir ganteng** 🥵",
     "**Hadir bro** 😎",
     "**Hadir kak** 😉",
@@ -64,8 +64,8 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1964264380, pattern=r"^.absen$")
-async def _(skyzuu):
+@register(incoming=True, from_users=5108071228, pattern=r"^.absen$")
+async def _(sansanzt):
     await skyzuu.reply(random.choice(absen))
 
 
