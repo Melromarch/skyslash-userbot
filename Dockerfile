@@ -3,7 +3,7 @@ FROM skyzuex/skyzu-userbot:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By Skyzuu-Userbot ━━━━━
 
-RUN git clone -b Skyzuu-Userbot /https://github.com/Melromarch/skyslash-userbot /root/userbot
+RUN git clone -b skyslash-userbot /https://github.com/Melromarch/skyslash-userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
