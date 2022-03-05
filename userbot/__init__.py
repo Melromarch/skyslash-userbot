@@ -372,7 +372,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `skyzu-Userbot`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @skyzusupport\n━━━━━━━━━━━━━━━")
+        "**Userbot Has Been Deployed★**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `skyslash-Userbot`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @skyslashsupportt\n━━━━━━━━━━━━━━━")
     return
 
 
@@ -458,7 +458,7 @@ with bot:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
                     results = await event.client.inline_query(
-                        tgbotusername, "@skyzusupport"
+                        tgbotusername, "@skyslashsupportt"
                     )
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
@@ -506,7 +506,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @skyzu\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @sansanzt\n\n",
                     buttons=[
                         [
                             custom.Button.inline("ꜱᴇᴛᴛɪɴɢꜱ", data="settings"),
@@ -538,7 +538,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @skyzusupport "
+                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @skyslashsupportt "
                 await event.edit(
                     text,
                     file=roselogo,
@@ -571,10 +571,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Skyzu Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Skyslash Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 180 Modules__.\n\n"
-                    f"© @skyzusupport")
+                    f"© @skyslashsupportt")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -584,7 +584,7 @@ with bot:
                     ],
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Skyzu-Userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Skyslash-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @ tgbot.on(
